@@ -93,7 +93,7 @@
 <meta property="og:url" content="http://yoursite.com/2017/02/22/Hexo-个人博客环境搭建/index.html">
 <meta property="og:site_name" content="CmouseG's Blog">
 <meta property="og:description" content="Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。">
-<meta property="og:updated_time" content="2017-02-24T22:14:26.627Z">
+<meta property="og:updated_time" content="2017-02-24T22:50:58.400Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo 个人博客环境搭建">
 <meta name="twitter:description" content="Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。">
@@ -400,11 +400,24 @@ date: 2017-02-22 21:43:46
 type: categories
 comments: false # 如果开启评论模块
 </code></pre><h3 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h3><p>首先要有<a href="https://github.com/" target="_blank" rel="external">GitHub</a>或<a href="https://www.coding.net/" target="_blank" rel="external">Coding</a>帐号，创建<a href="https://pages.github.com/" target="_blank" rel="external">GitHub Pages</a>或<a href="https://coding.net/help/doc/pages/index.html" target="_blank" rel="external">Coding Pages</a><br>安装hexo-deployer-git<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-deployer-git --save</div></pre></td></tr></table></figure></p>
-<p>修改站点配置文件(_config.yml)</p>
+<p>修改站点配置文件(_config.yml)<br>URL方式：</p>
 <blockquote>
 <p>deploy:</p>
 <blockquote>
-<p>type: git<br>github: git@github.com:{username}/{username}.github.io.git,{branch[master]}<br>coding: git@git.coding.net:{username}/{project}.git,{branch[master]}</p>
+<p>type: git<br>repo:</p>
+<blockquote>
+<p>github: <a href="https://github.com/{account}/{account}.github.io.git" target="_blank" rel="external">https://github.com/{account}/{account}.github.io.git</a><br>coding: <a href="https://git.coding.net/{account}/{project}.git" target="_blank" rel="external">https://git.coding.net/{account}/{project}.git</a></p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>SSH方式：</p>
+<blockquote>
+<p>deploy:</p>
+<blockquote>
+<p>type: git<br>repo:</p>
+<blockquote>
+<p>github: git@github.com:{account}/{account}.github.io.git,{branch[master]}<br>coding: git@git.coding.net:{account}/{project}.git,{branch[master]}</p>
+</blockquote>
 </blockquote>
 </blockquote>
 <h2 id="进阶篇"><a href="#进阶篇" class="headerlink" title="进阶篇"></a>进阶篇</h2>
