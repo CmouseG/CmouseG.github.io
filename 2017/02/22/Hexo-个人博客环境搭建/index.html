@@ -93,7 +93,7 @@
 <meta property="og:url" content="http://yoursite.com/2017/02/22/Hexo-个人博客环境搭建/index.html">
 <meta property="og:site_name" content="CmouseG's Blog">
 <meta property="og:description" content="Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。">
-<meta property="og:updated_time" content="2017-02-25T02:14:17.793Z">
+<meta property="og:updated_time" content="2017-02-25T02:51:40.302Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo 个人博客环境搭建">
 <meta name="twitter:description" content="Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。">
@@ -420,7 +420,8 @@ comments: false # 如果开启评论模块
 </blockquote>
 </blockquote>
 </blockquote>
-<p>注：使用加密通道读写仓库，无单次上传限制，需先设置<a href="https://coding.net/help/doc/git/ssh-key.html#ssh-" target="_blank" rel="external">账户 SSH 公钥</a>，完成配对验证</p>
+<p>注：使用加密通道读写仓库，无单次上传限制，需先设置<a href="https://coding.net/help/doc/git/ssh-key.html#ssh-" target="_blank" rel="external">账户 SSH 公钥</a>，完成配对验证,通过<code>$ find ~ -name *id_rsa*</code>命令找到<code>id_rsa.pub</code>文件，然后<code>$ cat ~/.ssh/id_rsa.pub</code>复制内容到Coding或GitHub</p>
+<hr>
 <h2 id="进阶篇"><a href="#进阶篇" class="headerlink" title="进阶篇"></a>进阶篇</h2>
       
     </div>
