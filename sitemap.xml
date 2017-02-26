@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://yoursite.com/2017/02/22/hexo-blog/</loc>
+    
+    <lastmod>2017-02-26T04:02:55.044Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/tags/index.html</loc>
+    
+    <lastmod>2017-02-26T03:50:19.316Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/categories/index.html</loc>
+    
+    <lastmod>2017-02-26T03:49:32.398Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/02/25/mapped-domain/</loc>
+    
+    <lastmod>2017-02-26T00:54:52.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/02/25/domain/</loc>
+    
+    <lastmod>2017-02-25T23:31:26.714Z</lastmod>
+    
+  </url>
+  
+</urlset>
